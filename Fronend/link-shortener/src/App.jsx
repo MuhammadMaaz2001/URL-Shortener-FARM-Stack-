@@ -13,7 +13,7 @@ const App = () => {
   // React Query mutation hook to shorten URL
   const mutation = useMutation({
     mutationFn: async (url) => {
-      const response = await axios.post("http://localhost:8000/shorten", {
+      const response = await axios.post("http://192.168.18.232:8000/shorten", {
         original_url: url,
       });
       return response.data.short_url;
