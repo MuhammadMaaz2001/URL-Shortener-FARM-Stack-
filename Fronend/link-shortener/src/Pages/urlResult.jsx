@@ -5,7 +5,7 @@ const URLResult = ({ url, shortUrl, copyToClipboard, shortenAnother, toggleModal
     <div>
       <div className="flex flex-col md:flex-row items-center justify-between mb-6">
         <div className="w-full md:w-1/2 mb-4 md:mb-0">
-          <p className="font-bold text-lg mb-2 text-gray-800">Your Long URL</p>
+          <p className="font-bold text-lg mb-2 text-gray-900">Your Long URL</p>
           <div className="flex items-center">
             <a
               href={url}
@@ -26,7 +26,7 @@ const URLResult = ({ url, shortUrl, copyToClipboard, shortenAnother, toggleModal
           </div>
         </div>
         <div className="w-full md:w-1/2">
-          <p className="font-bold text-lg mb-2 text-gray-800">TinyURL</p>
+          <p className="font-bold text-lg mb-2 text-gray-900">TinyURL</p>
           <a
             href={shortUrl}
             className="break-words text-blue-600 hover:text-blue-800 transition-colors duration-300"
